@@ -39,13 +39,14 @@ This is a solution to the '**404 not found**' project of the Make It Real course
 
 - Nest Hub Max
   <br />
-  <img src="./design/nest-hub-max.png" width="700px" />
+  <img src="./design/nest-hub-max-result.png" width="700px" />
   <br />
 
 - iPad Mini & iPhone SE
   <br />
-  <img src="./design/ipad-mini.png" width="55%" />
-  <img src="./design/iphone-se-result.png" width="42%" />
+  <img src="./design/ipad-mini-result.png
+  " width="55%" />
+  <img src="./design/iphone-se-result.png" width="41%" />
 
 ## My process
 
@@ -59,7 +60,8 @@ This is a solution to the '**404 not found**' project of the Make It Real course
 
 ### What I learned
 
-_Mobile-first_ workflow.
+- _Mobile-first_ workflow in general.
+- That for some devices it is also necessary to take into account the vertical size of the viewport.
 
 ### Continued development
 
