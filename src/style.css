@@ -31,7 +31,7 @@ html {
   align-items: center;
   min-height: 100vh;
   width: clamp(330px, 85vw, 1600px);
-  max-width: 1600px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
@@ -74,11 +74,11 @@ html {
 
 .member-card {
   width: fit-content;
-  margin-bottom: 1rem;
+  margin-bottom: calc(1rem + 2vw);
 }
 
 .member-card:nth-child(even) {
-  margin-top: 4rem;
+  margin-top: calc(4rem + 1vw);
 }
 
 .photo-and-role {
@@ -97,12 +97,12 @@ html {
   font-weight: 400;
   writing-mode: vertical-lr;
   text-transform: uppercase;
-  font-size: clamp(0.9rem, 0.9rem + 0.5vw, 1.4rem);
+  font-size: clamp(0.9rem, 0.9rem + 0.5vw, 1.6rem);
 }
 
 .name {
   font-weight: 600;
-  font-size: clamp(1.4rem, 1.4rem + 1vw, 1.4rem);
+  font-size: clamp(1.4rem, 1rem + 1vw, 2rem);
 }
 
 /* Footer */
@@ -126,4 +126,36 @@ html {
 
 .page-footer a:hover {
   color: var(--primary-black);
+}
+
+/* Media queries */
+
+@media screen and (min-width: 960px) {
+  .main-header {
+    min-height: 120px;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 8vw 0 30px;
+  }
+
+  .who-we-are {
+    width: 45%;
+  }
+
+  .photo-and-role > img {
+    width: 25vw;
+    max-width: 300px;
+  }
+
+  .member-card {
+    margin-bottom: calc(2rem + 2vw);
+  }
+
+  .member-card:nth-child(even) {
+    margin-top: 0;
+  }
+
+  .member-card:nth-child(3n + 2) {
+    margin-top: calc(5rem + 3vw);
+  }
 }
