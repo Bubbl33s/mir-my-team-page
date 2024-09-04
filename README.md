@@ -44,8 +44,7 @@ This is a solution to the '**404 not found**' project of the Make It Real course
 
 - iPad Mini & iPhone SE
   <br />
-  <img src="./design/ipad-mini-result.png
-  " width="55%" />
+  <img src="./design/ipad-mini-result.png" width="55%" />
   <img src="./design/iphone-se-result.png" width="41%" />
 
 ## My process
