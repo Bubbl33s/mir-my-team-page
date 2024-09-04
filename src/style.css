@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap");
+
+/* General */
+:root {
+  --primary-black: #000;
+  --secondary-black: #333;
+  --primary-gray: #4f4f4f;
+  --secondary-gray: #a9a9a9;
+  --tertiary-gray: #bfbfbf;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: var(--primary-black);
+}
+
+/* Main container */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  width: clamp(330px, 85vw, 1600px);
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.main-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  height: 20vh;
+  min-height: 200px;
+  width: 100%;
+  margin: 30px 0;
+}
+
+.main-header h1 {
+  font-family: "PT Serif", serif;
+  font-size: clamp(2.6rem, calc(2.6rem + 1vw), 5rem);
+}
+
+.who-we-are h3 {
+  font-size: clamp(1.6rem, calc(1rem + 1vw), 2.6rem);
+  font-weight: 600;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.who-we-are p {
+  font-size: clamp(1.4rem, calc(0.9rem + 1vw), 2.4rem);
+  font-weight: 400;
+  width: 90%;
+}
+
+/* Cards container */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.member-card {
+  width: fit-content;
+  margin-bottom: 1rem;
+}
+
+.member-card:nth-child(even) {
+  margin-top: 4rem;
+}
+
+.photo-and-role {
+  display: flex;
+  margin-bottom: 0.8rem;
+  align-items: flex-start;
+  gap: 0.3rem;
+}
+
+.photo-and-role > img {
+  width: 37vw;
+}
+
+.role {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  writing-mode: vertical-lr;
+  text-transform: uppercase;
+  font-size: clamp(0.9rem, 0.9rem + 0.5vw, 1.4rem);
+}
+
+.name {
+  font-weight: 600;
+  font-size: clamp(1.4rem, 1.4rem + 1vw, 1.4rem);
+}
+
+/* Footer */
+.page-footer {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6vh;
+  min-height: 50px;
+  width: 100%;
+  font-size: 1.6em;
+  color: var(--tertiary-gray);
+}
+
+.page-footer a {
+  color: var(--secondary-gray);
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.page-footer a:hover {
+  color: var(--primary-black);
+}
