@@ -1,59 +1,84 @@
-# Make It Real - My Team Page
+# Make It Real - NAME OF THE PROJECT
 
-<img src="./design/desktop-preview.jpg" width="700">
+This is a solution to the '**404 not found**' project of the Make It Real course.
 
-## Reto
+## Table of contents
 
-Su desafío es construir una pagina responsive para mostrar a tu team y lograr que se parezca lo más posible al diseño.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Expected result](#expected-result)
+- [Actual result](#actual-result)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-Puedes usar cualquier herramienta que te guste para ayudarte a completar el desafío. Entonces, si tienes algo que te gustaría practicar, no dudes en intentarlo.
+## Overview
 
-Sus usuarios deberían poder:
+### The challenge
 
-- Ver el diseño óptimo según el tamaño de pantalla de su dispositivo
+- Design a '**My Team**' page
+- The page should be responsive
+- Consider at least two devices:
+  - Mobile: 375px
+  - Desktop: 1440px
 
-## Diseño
+### Expected result
 
-Los diseños están en formato JPG estático. El uso de archivos JPG significará que deberá usar su mejor criterio para estilos como "tamaño de fuente", "padding" y "margen".
+<img src="./design/desktop-preview.jpg" width="800px">
 
-### Style Guide
+## Actual result
 
-Los diseños se crearon con los siguientes anchos:
+- Desktop
+  <br />
+  <img src="./design/desktop-result.png" width="800px" />
+  <br />
 
-- Mobile: 375px
-- Desktop: 1440px
+- Nest Hub Max
+  <br />
+  <img src="./design/nest-hub-max.png" width="700px" />
+  <br />
 
-## Colores
+- iPad Mini & iPhone SE
+  <br />
+  <img src="./design/ipad-mini.png" width="55%" />
+  <img src="./design/iphone-se-result.png" width="42%" />
 
-### Primary
+## My process
 
-- Black: #000000
+### Built with
 
-## Tipografía
+- Semantic HTML5 markup
+- CSS custom properties
+- CSS media queries
+- Flexbox
+- Mobile-first workflow
 
-### Body Copy
+### What I learned
 
-- Font size: 18px/14px
+_Mobile-first_ workflow.
 
-### Font
+### Continued development
 
-- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
-- Weights: 500
+Mastering the mobile-first workflow, continue practicing for responsiveness, especially for fonts and image sizes.
 
-## Construyendo tu proyecto
+### Useful resources
 
-Siéntase libre de usar cualquier flujo de trabajo con el que se sienta cómodo. A continuación se sugiere un proceso, pero no sienta que necesita seguir estos pasos:
+- [Color Picker](https://snapcraft.io/color-picker) - It helped me to get a more accurate representation of the colors that were not provided.
+- [Google Fonts](https://fonts.google.com/) - It provided the main font used in the project.
+- [Optimizilla](https://imagecompressor.com/) - To optimize the screenshots.
+- [MDN Web Docs](https://developer.mozilla.org/en-US/) - Documentation
 
-1. Inicializa tu proyecto como repositorio público en [GitHub](https://github.com/). La creación de un repositorio hará que sea más fácil compartir su código con la comunidad si necesita ayuda. Si no está seguro de cómo hacer esto, [lea este recurso](https://guias.makeitreal.camp/git) .
-2. Mire los diseños para comenzar a planificar cómo abordará el proyecto. Este paso es crucial para ayudarlo a pensar con anticipación en las clases de CSS para crear estilos reutilizables.
-3. Antes de agregar estilos, estructura tu contenido con HTML. Escribir tu HTML primero puede ayudar a centrar tu atención en crear contenido bien estructurado.
-4. Escriba los estilos base para su proyecto, incluidos los estilos de contenido general, como `font-family` y `font-size`.
-5. Comience a agregar estilos en la parte superior de la página y siga hacia abajo. Pase a la siguiente sección solo cuando esté satisfecho de haber completado el área en la que está trabajando.
+## Author
 
-## Crea un `README.md` personalizado
+Valeria Lozano _a.k.a._ **Bubbl33s**
 
-Recomendamos encarecidamente sobrescribir este `README.md` con uno personalizado. Proporcionamos una plantilla dentro del archivo [`README-template.md`](./README-template.md) en este código de inicio.
+- [GitHub](https://www.your-site.com)
+- [Codepen](https://codepen.io/Bubbl33s)
 
-La plantilla proporciona una guía sobre qué agregar. Un `README` personalizado lo ayudará a explicar su proyecto y reflexionar sobre sus aprendizajes. Por favor, siéntete libre de editar nuestra plantilla tanto como quieras.
+## Acknowledgments
 
-**¡Diviértete construyendo!** 🚀
+- Make it Real mentors

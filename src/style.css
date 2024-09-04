@@ -4,8 +4,6 @@
 /* General */
 :root {
   --primary-black: #000;
-  --secondary-black: #333;
-  --primary-gray: #4f4f4f;
   --secondary-gray: #a9a9a9;
   --tertiary-gray: #bfbfbf;
 }
@@ -52,14 +50,14 @@ html {
 }
 
 .who-we-are h3 {
-  font-size: clamp(1.6rem, calc(1rem + 1vw), 2.6rem);
+  font-size: clamp(1.6rem, calc(1rem + 1vw), 2.4rem);
   font-weight: 600;
   margin-bottom: 1rem;
   text-transform: uppercase;
 }
 
 .who-we-are p {
-  font-size: clamp(1.4rem, calc(0.9rem + 1vw), 2.4rem);
+  font-size: clamp(1.4rem, calc(0.9rem + 1vw), 2.2rem);
   font-weight: 400;
   width: 90%;
 }
@@ -135,7 +133,7 @@ html {
     min-height: 120px;
     justify-content: space-between;
     align-items: flex-start;
-    margin: 8vw 0 30px;
+    margin: 5vw 0 3vw;
   }
 
   .who-we-are {
